@@ -1,0 +1,11 @@
+name: scallion_writer_plugin
+desc: Scallion剧本写入器 - 群友改剧本AI自动写文件
+version: 1.0.0
+author: 阿柯AKer
+repo: "https://github.com/AKer4632/scallion_writer_plugin"
+
+config:
+  article_path:
+    type: string
+    description: Scallion剧本文件的绝对路径
+    default: article.txt
